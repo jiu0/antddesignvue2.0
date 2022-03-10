@@ -36,7 +36,8 @@ Vue.use(Antd);
 //引入Mock 数据
 const mock = true;
 if(mock){
-  var arr =require('./mock/mock')
+  var arr2 =require('./mock/mock')
+  console.log('arr2',arr2)
 }
 
 // Vue.component(Form.Item.name, Form.Item);
